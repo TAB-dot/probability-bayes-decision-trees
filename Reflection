@@ -1,0 +1,8 @@
+One ethical consideration when using probabilistic models or decision trees is the risk of bias inherited from historical data. 
+If certain groups (such as women or higher-class passengers in the Titanic dataset) had higher survival rates, the model may learn patterns that reflect historical inequalities rather than neutral truths. 
+This can result in predictions that appear accurate but still reinforce systemic disparities.
+
+Additionally, a model with high overall accuracy may still perform poorly for certain subgroups. Therefore, performance metrics alone do not guarantee fairness.
+
+To communicate uncertainty to a non-technical audience, I would explain that the model makes probabilistic estimates, not guarantees. 
+For example, instead of saying “This outcome will happen,” I would say, “Based on historical data, this outcome has an estimated probability, but the model still makes errors and should support—not replace—human decision-making.”
